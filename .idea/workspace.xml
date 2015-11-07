@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc5b0ca9-15f7-4f5a-8149-75e6389b5a4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scope.js" afterPath="$PROJECT_DIR$/src/scope.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/scope_spec.js" afterPath="$PROJECT_DIR$/test/scope_spec.js" />
     </list>
@@ -26,17 +23,19 @@
     <favorites_list name="myangular" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49304348">
+    <splitter split-orientation="horizontal" split-proportion="0.47863248">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="scope_spec.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7284345">
-                  <caret line="1177" column="29" selection-start-line="1177" selection-start-column="29" selection-end-line="1177" selection-end-column="29" />
+                <state vertical-scroll-proportion="1.3650519">
+                  <caret line="1234" column="28" selection-start-line="1234" selection-start-column="28" selection-end-line="1234" selection-end-column="28" />
                   <folding>
+                    <element signature="e#208#319#0" expanded="false" />
                     <element signature="e#357#21639#0" expanded="false" />
                     <element signature="e#21682#25635#0" expanded="false" />
+                    <element signature="e#25678#36163#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -49,8 +48,8 @@
           <file leaf-file-name="scope.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scope.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5207668">
-                  <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.61245674">
+                  <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#462#935#0" expanded="false" />
@@ -69,6 +68,7 @@
                     <element signature="e#6272#6314#0" expanded="false" />
                     <element signature="e#6378#6869#0" expanded="false" />
                     <element signature="e#6916#7089#0" expanded="false" />
+                    <element signature="e#7130#7360#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -291,7 +291,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497721" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37331954" sideWeight="0.490099" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37331954" sideWeight="0.490099" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -324,7 +324,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -333,8 +335,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="804" column="0" selection-start-line="804" selection-start-column="0" selection-end-line="804" selection-end-column="0" />
           <folding>
+            <element signature="e#208#319#0" expanded="false" />
             <element signature="e#357#21639#0" expanded="false" />
             <element signature="e#21682#25635#0" expanded="false" />
+            <element signature="e#25678#36163#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -361,6 +365,7 @@
             <element signature="e#6272#6314#0" expanded="false" />
             <element signature="e#6378#6869#0" expanded="false" />
             <element signature="e#6916#7089#0" expanded="false" />
+            <element signature="e#7130#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,8 +375,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="828" column="26" selection-start-line="828" selection-start-column="26" selection-end-line="828" selection-end-column="26" />
           <folding>
+            <element signature="e#208#319#0" expanded="false" />
             <element signature="e#357#21639#0" expanded="false" />
             <element signature="e#21682#25635#0" expanded="false" />
+            <element signature="e#25678#36163#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -398,6 +405,7 @@
             <element signature="e#6272#6314#0" expanded="false" />
             <element signature="e#6378#6869#0" expanded="false" />
             <element signature="e#6916#7089#0" expanded="false" />
+            <element signature="e#7130#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,19 +435,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7284345">
-          <caret line="1177" column="29" selection-start-line="1177" selection-start-column="29" selection-end-line="1177" selection-end-column="29" />
+        <state vertical-scroll-proportion="1.3650519">
+          <caret line="1234" column="28" selection-start-line="1234" selection-start-column="28" selection-end-line="1234" selection-end-column="28" />
           <folding>
+            <element signature="e#208#319#0" expanded="false" />
             <element signature="e#357#21639#0" expanded="false" />
             <element signature="e#21682#25635#0" expanded="false" />
+            <element signature="e#25678#36163#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scope.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5207668">
-          <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.61245674">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#462#935#0" expanded="false" />
@@ -458,6 +468,7 @@
             <element signature="e#6272#6314#0" expanded="false" />
             <element signature="e#6378#6869#0" expanded="false" />
             <element signature="e#6916#7089#0" expanded="false" />
+            <element signature="e#7130#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
