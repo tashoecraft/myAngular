@@ -1,10 +1,25 @@
 /**
  * Created by Austin on 10/27/15.
  */
-/* jshint globalstrict: true */
 'use strict';
-function initWatchVal() {}
+var _ = require('lodash');
+var initWatchVal = function(scope) {
+    newValue = watchFn(scope);
 
+    if(_.isObject(newValue)) {
+        if(_.isArray(newValue)) {
+
+        } else {
+
+        }
+    } else {
+        if(!self.$$areEqual(newValue, oldValue, false)) {
+            changeCount++;
+        }
+        oldValue = newValue;
+    }
+    return changeCount;
+};
 function Scope() {
     this.$$watchers = [];
     this.$$lastDirtyWatch = null;
@@ -287,3 +302,5 @@ Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
 
     return this.$watch(internalWatchFn, internalListenerFn);
 };
+
+module.exports = Scope;

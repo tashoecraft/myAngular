@@ -1,9 +1,10 @@
 /**
  * Created by Austin on 10/27/15.
  */
-/* jshint globalstrict: true */
 /* global Scope: false */
 'use strict';
+var _ = require('lodash');
+var Scope = require('../src/scope');
 
 describe("Scope", function() {
     it("can be constructed and used as an object", function() {
@@ -1218,7 +1219,7 @@ describe("Scope", function() {
             expect(scope.counter).toBe(2);
         });
 
-        it("works like a normal watch for Nan's", function() {
+        it("works like a normal watch for NaN's", function() {
             scope.aValue = 0/0;
             scope.counter = 0;
 
@@ -1234,6 +1235,27 @@ describe("Scope", function() {
 
             scope.$digest();
             expect(scope.counter).toBe(1);
+        });
+
+        it("notices when the value becomes an array", function() {
+            scope.counter = 0;
+
+            scope.$watchCollection(
+                function(scope) {return scope.arr;},
+                function(newValue, oldValue, scope) {
+                    scope.counter++;
+                }
+            );
+
+            scope.$digest();
+            expect(scope.counter).toBe(1);
+
+            scope.arr = [1,2,3];
+            scope.$digest();
+            expect(scope.counter).toBe(2);
+
+            scope.$digest();
+            expect(scope.counter).toBe(2);
         });
 
     });
