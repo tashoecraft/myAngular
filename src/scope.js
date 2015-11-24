@@ -3,23 +3,16 @@
  */
 'use strict';
 var _ = require('lodash');
-var initWatchVal = function(scope) {
-    newValue = watchFn(scope);
-
-    if(_.isObject(newValue)) {
-        if(_.isArray(newValue)) {
-
-        } else {
-
-        }
-    } else {
-        if(!self.$$areEqual(newValue, oldValue, false)) {
-            changeCount++;
-        }
-        oldValue = newValue;
-    }
-    return changeCount;
+var initWatchVal = function() {
 };
+
+function isArrayLike(obj) {
+    if(_.isNull(obj) || _.isUndefined(obj)) {
+        return false;
+    }
+    var length = obj.length;
+    return _.isNumber(length);
+}
 function Scope() {
     this.$$watchers = [];
     this.$$lastDirtyWatch = null;
@@ -287,12 +280,34 @@ Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
 
     var internalWatchFn = function(scope) {
         newValue = watchFn(scope);
-
-        if(!self.$$areEqual(newValue, oldValue, false)) {
-            changeCount++;
+        if (_.isObject(newValue)) {
+                if (isArrayLike(newValue)) {
+                    if (!_.isArray(oldValue)) { changeCount++;
+                        oldValue = [];
+                    }
+                    if (newValue.length !== oldValue.length) {
+                        changeCount++;
+                        oldValue.length = newValue.length;
+                    }
+                    _.forEach(newValue, function(newItem, i) {
+                        var bothNan = _.isNaN(newItem) && _.isNaN(oldValue[i]);
+                        if(!bothNan && newItem !== oldValue[i]) {
+                            changeCount++;
+                            oldValue[i] = newItem;
+                        }
+                    });
+                } else {
+                    if(!_.isObject(oldValue) || isArrayLike(oldValue)) {
+                        changeCount++;
+                        oldValue = {};
+                    }
+                }
+        } else {
+            if (!self.$$areEqual(newValue, oldValue, false)) {
+                changeCount++;
+            }
+            oldValue = newValue;
         }
-        oldValue = newValue;
-
         return changeCount;
     };
 
@@ -302,5 +317,6 @@ Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
 
     return this.$watch(internalWatchFn, internalListenerFn);
 };
+
 
 module.exports = Scope;

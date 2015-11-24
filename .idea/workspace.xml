@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc5b0ca9-15f7-4f5a-8149-75e6389b5a4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/karma.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scope.js" afterPath="$PROJECT_DIR$/src/scope.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/scope_spec.js" afterPath="$PROJECT_DIR$/test/scope_spec.js" />
     </list>
@@ -27,50 +24,55 @@
     <favorites_list name="myangular" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="scope_spec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72696245">
-              <caret line="1259" column="0" selection-start-line="1259" selection-start-column="0" selection-end-line="1259" selection-end-column="0" />
-              <folding>
-                <element signature="e#240#351#0" expanded="false" />
-                <element signature="e#389#21671#0" expanded="false" />
-                <element signature="e#21714#25667#0" expanded="false" />
-                <element signature="e#25710#36195#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scope.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scope.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="e#1280#2413#0" expanded="false" />
-                <element signature="e#2453#3427#0" expanded="false" />
-                <element signature="e#3497#3731#0" expanded="false" />
-                <element signature="e#3781#3814#0" expanded="false" />
-                <element signature="e#3857#4019#0" expanded="false" />
-                <element signature="e#4066#4352#0" expanded="false" />
-                <element signature="e#4401#4514#0" expanded="false" />
-                <element signature="e#4633#4926#0" expanded="false" />
-                <element signature="e#4976#5181#0" expanded="false" />
-                <element signature="e#5228#5268#0" expanded="false" />
-                <element signature="e#5332#6625#0" expanded="false" />
-                <element signature="e#6139#6482#0" expanded="false" />
-                <element signature="e#6572#6614#0" expanded="false" />
-                <element signature="e#6678#7169#0" expanded="false" />
-                <element signature="e#7216#7389#0" expanded="false" />
-                <element signature="e#7430#7660#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47604004">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="scope_spec.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.60809374">
+                  <caret line="1402" column="14" selection-start-line="1402" selection-start-column="14" selection-end-line="1402" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#240#351#0" expanded="false" />
+                    <element signature="e#21714#25667#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="scope.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/scope.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6251331">
+                  <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#1147#2280#0" expanded="false" />
+                    <element signature="e#2320#3294#0" expanded="false" />
+                    <element signature="e#3364#3598#0" expanded="false" />
+                    <element signature="e#3648#3681#0" expanded="false" />
+                    <element signature="e#3724#3886#0" expanded="false" />
+                    <element signature="e#3933#4219#0" expanded="false" />
+                    <element signature="e#4268#4381#0" expanded="false" />
+                    <element signature="e#4500#4793#0" expanded="false" />
+                    <element signature="e#4843#5048#0" expanded="false" />
+                    <element signature="e#5095#5135#0" expanded="false" />
+                    <element signature="e#5199#6492#0" expanded="false" />
+                    <element signature="e#6006#6349#0" expanded="false" />
+                    <element signature="e#6439#6481#0" expanded="false" />
+                    <element signature="e#6545#7036#0" expanded="false" />
+                    <element signature="e#7083#7256#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,8 +93,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/src/scope.js" />
         <option value="$PROJECT_DIR$/test/scope_spec.js" />
+        <option value="$PROJECT_DIR$/src/scope.js" />
       </list>
     </option>
   </component>
@@ -117,10 +119,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
-    <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="873" />
+    <option name="x" value="-200" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,7 +286,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="23" width="720" height="873" extended-state="0" />
+    <frame x="-200" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -294,7 +296,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497721" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21382843" sideWeight="0.490099" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17305699" sideWeight="0.490099" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -328,7 +330,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -336,12 +338,45 @@
     <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="1368" column="39" selection-start-line="1368" selection-start-column="39" selection-end-line="1368" selection-end-column="39" />
+          <folding>
+            <element signature="e#240#351#0" expanded="false" />
+            <element signature="e#21714#25667#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#1147#2280#0" expanded="false" />
+            <element signature="e#2320#3294#0" expanded="false" />
+            <element signature="e#3364#3598#0" expanded="false" />
+            <element signature="e#3648#3681#0" expanded="false" />
+            <element signature="e#3724#3886#0" expanded="false" />
+            <element signature="e#3933#4219#0" expanded="false" />
+            <element signature="e#4268#4381#0" expanded="false" />
+            <element signature="e#4500#4793#0" expanded="false" />
+            <element signature="e#4843#5048#0" expanded="false" />
+            <element signature="e#5095#5135#0" expanded="false" />
+            <element signature="e#5199#6492#0" expanded="false" />
+            <element signature="e#6006#6349#0" expanded="false" />
+            <element signature="e#6439#6481#0" expanded="false" />
+            <element signature="e#6545#7036#0" expanded="false" />
+            <element signature="e#7083#7256#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1234" column="28" selection-start-line="1234" selection-start-column="28" selection-end-line="1234" selection-end-column="28" />
           <folding>
             <element signature="e#240#351#0" expanded="false" />
-            <element signature="e#389#21671#0" expanded="false" />
             <element signature="e#21714#25667#0" expanded="false" />
-            <element signature="e#25710#36195#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -351,22 +386,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1280#2413#0" expanded="false" />
-            <element signature="e#2453#3427#0" expanded="false" />
-            <element signature="e#3497#3731#0" expanded="false" />
-            <element signature="e#3781#3814#0" expanded="false" />
-            <element signature="e#3857#4019#0" expanded="false" />
-            <element signature="e#4066#4352#0" expanded="false" />
-            <element signature="e#4401#4514#0" expanded="false" />
-            <element signature="e#4633#4926#0" expanded="false" />
-            <element signature="e#4976#5181#0" expanded="false" />
-            <element signature="e#5228#5268#0" expanded="false" />
-            <element signature="e#5332#6625#0" expanded="false" />
-            <element signature="e#6139#6482#0" expanded="false" />
-            <element signature="e#6572#6614#0" expanded="false" />
-            <element signature="e#6678#7169#0" expanded="false" />
-            <element signature="e#7216#7389#0" expanded="false" />
-            <element signature="e#7430#7660#0" expanded="false" />
+            <element signature="e#1147#2280#0" expanded="false" />
+            <element signature="e#2320#3294#0" expanded="false" />
+            <element signature="e#3364#3598#0" expanded="false" />
+            <element signature="e#3648#3681#0" expanded="false" />
+            <element signature="e#3724#3886#0" expanded="false" />
+            <element signature="e#3933#4219#0" expanded="false" />
+            <element signature="e#4268#4381#0" expanded="false" />
+            <element signature="e#4500#4793#0" expanded="false" />
+            <element signature="e#4843#5048#0" expanded="false" />
+            <element signature="e#5095#5135#0" expanded="false" />
+            <element signature="e#5199#6492#0" expanded="false" />
+            <element signature="e#6006#6349#0" expanded="false" />
+            <element signature="e#6439#6481#0" expanded="false" />
+            <element signature="e#6545#7036#0" expanded="false" />
+            <element signature="e#7083#7256#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -377,9 +411,7 @@
           <caret line="804" column="0" selection-start-line="804" selection-start-column="0" selection-end-line="804" selection-end-column="0" />
           <folding>
             <element signature="e#240#351#0" expanded="false" />
-            <element signature="e#389#21671#0" expanded="false" />
             <element signature="e#21714#25667#0" expanded="false" />
-            <element signature="e#25710#36195#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -389,22 +421,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1280#2413#0" expanded="false" />
-            <element signature="e#2453#3427#0" expanded="false" />
-            <element signature="e#3497#3731#0" expanded="false" />
-            <element signature="e#3781#3814#0" expanded="false" />
-            <element signature="e#3857#4019#0" expanded="false" />
-            <element signature="e#4066#4352#0" expanded="false" />
-            <element signature="e#4401#4514#0" expanded="false" />
-            <element signature="e#4633#4926#0" expanded="false" />
-            <element signature="e#4976#5181#0" expanded="false" />
-            <element signature="e#5228#5268#0" expanded="false" />
-            <element signature="e#5332#6625#0" expanded="false" />
-            <element signature="e#6139#6482#0" expanded="false" />
-            <element signature="e#6572#6614#0" expanded="false" />
-            <element signature="e#6678#7169#0" expanded="false" />
-            <element signature="e#7216#7389#0" expanded="false" />
-            <element signature="e#7430#7660#0" expanded="false" />
+            <element signature="e#1147#2280#0" expanded="false" />
+            <element signature="e#2320#3294#0" expanded="false" />
+            <element signature="e#3364#3598#0" expanded="false" />
+            <element signature="e#3648#3681#0" expanded="false" />
+            <element signature="e#3724#3886#0" expanded="false" />
+            <element signature="e#3933#4219#0" expanded="false" />
+            <element signature="e#4268#4381#0" expanded="false" />
+            <element signature="e#4500#4793#0" expanded="false" />
+            <element signature="e#4843#5048#0" expanded="false" />
+            <element signature="e#5095#5135#0" expanded="false" />
+            <element signature="e#5199#6492#0" expanded="false" />
+            <element signature="e#6006#6349#0" expanded="false" />
+            <element signature="e#6439#6481#0" expanded="false" />
+            <element signature="e#6545#7036#0" expanded="false" />
+            <element signature="e#7083#7256#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -415,9 +446,7 @@
           <caret line="828" column="26" selection-start-line="828" selection-start-column="26" selection-end-line="828" selection-end-column="26" />
           <folding>
             <element signature="e#240#351#0" expanded="false" />
-            <element signature="e#389#21671#0" expanded="false" />
             <element signature="e#21714#25667#0" expanded="false" />
-            <element signature="e#25710#36195#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,22 +456,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1280#2413#0" expanded="false" />
-            <element signature="e#2453#3427#0" expanded="false" />
-            <element signature="e#3497#3731#0" expanded="false" />
-            <element signature="e#3781#3814#0" expanded="false" />
-            <element signature="e#3857#4019#0" expanded="false" />
-            <element signature="e#4066#4352#0" expanded="false" />
-            <element signature="e#4401#4514#0" expanded="false" />
-            <element signature="e#4633#4926#0" expanded="false" />
-            <element signature="e#4976#5181#0" expanded="false" />
-            <element signature="e#5228#5268#0" expanded="false" />
-            <element signature="e#5332#6625#0" expanded="false" />
-            <element signature="e#6139#6482#0" expanded="false" />
-            <element signature="e#6572#6614#0" expanded="false" />
-            <element signature="e#6678#7169#0" expanded="false" />
-            <element signature="e#7216#7389#0" expanded="false" />
-            <element signature="e#7430#7660#0" expanded="false" />
+            <element signature="e#1147#2280#0" expanded="false" />
+            <element signature="e#2320#3294#0" expanded="false" />
+            <element signature="e#3364#3598#0" expanded="false" />
+            <element signature="e#3648#3681#0" expanded="false" />
+            <element signature="e#3724#3886#0" expanded="false" />
+            <element signature="e#3933#4219#0" expanded="false" />
+            <element signature="e#4268#4381#0" expanded="false" />
+            <element signature="e#4500#4793#0" expanded="false" />
+            <element signature="e#4843#5048#0" expanded="false" />
+            <element signature="e#5095#5135#0" expanded="false" />
+            <element signature="e#5199#6492#0" expanded="false" />
+            <element signature="e#6006#6349#0" expanded="false" />
+            <element signature="e#6439#6481#0" expanded="false" />
+            <element signature="e#6545#7036#0" expanded="false" />
+            <element signature="e#7083#7256#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -459,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0855458">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5663717">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64835167">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,44 +508,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.043956045">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#1280#2413#0" expanded="false" />
-            <element signature="e#2453#3427#0" expanded="false" />
-            <element signature="e#3497#3731#0" expanded="false" />
-            <element signature="e#3781#3814#0" expanded="false" />
-            <element signature="e#3857#4019#0" expanded="false" />
-            <element signature="e#4066#4352#0" expanded="false" />
-            <element signature="e#4401#4514#0" expanded="false" />
-            <element signature="e#4633#4926#0" expanded="false" />
-            <element signature="e#4976#5181#0" expanded="false" />
-            <element signature="e#5228#5268#0" expanded="false" />
-            <element signature="e#5332#6625#0" expanded="false" />
-            <element signature="e#6139#6482#0" expanded="false" />
-            <element signature="e#6572#6614#0" expanded="false" />
-            <element signature="e#6678#7169#0" expanded="false" />
-            <element signature="e#7216#7389#0" expanded="false" />
-            <element signature="e#7430#7660#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/scope_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72696245">
-          <caret line="1259" column="0" selection-start-line="1259" selection-start-column="0" selection-end-line="1259" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.60809374">
+          <caret line="1402" column="14" selection-start-line="1402" selection-start-column="14" selection-end-line="1402" selection-end-column="14" />
           <folding>
             <element signature="e#240#351#0" expanded="false" />
-            <element signature="e#389#21671#0" expanded="false" />
             <element signature="e#21714#25667#0" expanded="false" />
-            <element signature="e#25710#36195#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6251331">
+          <caret line="302" column="21" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
+          <folding>
+            <element signature="e#1147#2280#0" expanded="false" />
+            <element signature="e#2320#3294#0" expanded="false" />
+            <element signature="e#3364#3598#0" expanded="false" />
+            <element signature="e#3648#3681#0" expanded="false" />
+            <element signature="e#3724#3886#0" expanded="false" />
+            <element signature="e#3933#4219#0" expanded="false" />
+            <element signature="e#4268#4381#0" expanded="false" />
+            <element signature="e#4500#4793#0" expanded="false" />
+            <element signature="e#4843#5048#0" expanded="false" />
+            <element signature="e#5095#5135#0" expanded="false" />
+            <element signature="e#5199#6492#0" expanded="false" />
+            <element signature="e#6006#6349#0" expanded="false" />
+            <element signature="e#6439#6481#0" expanded="false" />
+            <element signature="e#6545#7036#0" expanded="false" />
+            <element signature="e#7083#7256#0" expanded="false" />
           </folding>
         </state>
       </provider>
