@@ -11,7 +11,8 @@ function isArrayLike(obj) {
         return false;
     }
     var length = obj.length;
-    return _.isNumber(length);
+    return length === 0 ||
+        (_.isNumber(length) && length > 0 && (length - 1) in obj);
 }
 function Scope() {
     this.$$watchers = [];
@@ -22,6 +23,7 @@ function Scope() {
     this.$$postDigestQueue = [];
     this.$root = this;
     this.$$children = [];
+    this.$$listeners = {};
     this.$$phase = null;
 }
 
@@ -273,12 +275,17 @@ Scope.prototype.$destroy = function() {
 };
 
 Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
-    var self = this;
-    var newValue;
-    var oldValue;
+    var self = this,
+        newValue,
+        oldValue,
+        oldLength,
+        veryOldValue;
+    var trackVeryOldValue = (listenerFn.length > 1);
     var changeCount = 0;
+    var firstRun = true;
 
     var internalWatchFn = function(scope) {
+        var newLength;
         newValue = watchFn(scope);
         if (_.isObject(newValue)) {
                 if (isArrayLike(newValue)) {
@@ -300,6 +307,31 @@ Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
                     if(!_.isObject(oldValue) || isArrayLike(oldValue)) {
                         changeCount++;
                         oldValue = {};
+                        oldLength = 0;
+                    }
+                    newLength = 0;
+                    _.forOwn(newValue, function(newVal, key) {
+                        newLength++;
+                        if(oldValue.hasOwnProperty(key)) {
+                            var bothNaN = _.isNaN(newVal) && _.isNaN(oldValue[key]);
+                            if(!bothNaN && oldValue[key] !== newVal) {
+                                changeCount++;
+                                oldValue[key] = newVal;
+                            }
+                        } else {
+                            changeCount++;
+                            oldLength++;
+                            oldValue[key] = newVal;
+                        }
+                    });
+                    if(oldLength > newLength) {
+                        changeCount++;
+                        _.forOwn(oldValue, function(oldVal, key) {
+                            if(!newValue.hasOwnProperty(key)) {
+                                oldLength--;
+                                delete oldValue[key];
+                            }
+                        });
                     }
                 }
         } else {
@@ -312,11 +344,26 @@ Scope.prototype.$watchCollection = function(watchFn, listenerFn) {
     };
 
     var internalListenerFn = function() {
-        listenerFn(newValue, oldValue, self);
+        if(firstRun) {
+            listenerFn(newValue, newValue, self);
+            firstRun = false;
+        } else {
+            listenerFn(newValue, veryOldValue, self);
+        }
+
+        if(trackVeryOldValue) {
+            veryOldValue = _.clone(newValue);
+        }
     };
 
     return this.$watch(internalWatchFn, internalListenerFn);
 };
 
+Scope.prototype.$on = function(eventName, listener) {
+    var listeners = this.$$listeners[eventName];
+    if(!listeners) {
+        this.$$listeners[eventName] = listeners = [];
+    }
+}
 
 module.exports = Scope;
